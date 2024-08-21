@@ -26,4 +26,11 @@ func main() {
 
 	fmt.Println(len("Boy Bonansa")) // menghitung total karakter pada data string "Boy Bonansa"
 	fmt.Println("Boy Bonansa"[3])   // mengambil karakter pada posisi [3] dari data string "Boy Bonansa" ditampilkan berupa byte
+
+	// contoh kasus lain
+
+	var Nama string                // membuat variable dengan tipe data string
+	Nama = "Verlita Eka Febrianti" // memberi value pada variable
+
+	fmt.Println(len(Nama), Nama[4]) // menampilkan len dari variable dan juga mengambil byte variable [4]
 }
